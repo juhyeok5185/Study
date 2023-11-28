@@ -56,4 +56,7 @@ public class Lv0 {
         return answer;
     }
 
+    public static int lv0_4(){
+        return 0;
+    }
 }
