@@ -53,6 +53,7 @@ public class ApplicationContextExtendsFindTest {
     @DisplayName("부모타입으로 모두 조회하기 - Object")
     void findBeanByObjectType(){
         Map<String, Object> beansOfType = ac.getBeansOfType(Object.class);
+        //ㅇㅇ
         for (String key : beansOfType.keySet()) {
             System.out.println("key = " + key + "value = " + beansOfType.get(key));
         }
