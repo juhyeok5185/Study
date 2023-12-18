@@ -11,5 +11,6 @@ public class Main {
         for (int i : answer2) {
             System.out.println(i);
         }
+        String rn = Lv0.lv0_4("ddrmrn");
     }
 }
