@@ -65,10 +65,15 @@ public class Lv0 {
         return rny_string.replace("m" , "rn");
     }
 
-    public static int solution (double flo){
+    public static int lv0_5 (double flo){
 //        실수 flo가 매개 변수로 주어질 때,
 //        flo의 정수 부분을 return하도록
 //        solution 함수를 완성해주세요.
         return (int) flo;
+    }
+
+    public static String lv0_6 (String my_string, int n){
+        int count = my_string.length() - n;
+        return my_string.substring(count);
     }
 }
