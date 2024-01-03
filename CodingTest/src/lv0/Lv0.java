@@ -76,4 +76,14 @@ public class Lv0 {
         int count = my_string.length() - n;
         return my_string.substring(count);
     }
+
+    public static int lv0_7(int a, int b, boolean flag) {
+//        두 정수 a, b와 boolean 변수 flag가 매개변수로 주어질 때,
+//        flag가 true면 a + b를 false면 a - b를
+//        return 하는 solution 함수를 작성해 주세요.
+        if(flag){
+            return a + b;
+        }
+        return a - b;
+    }
 }
